@@ -1,0 +1,502 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>HTML Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style type="text/css">
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+		[style*="Open Sans"] {
+      font-family: 'Open Sans', arial, sans-serif !important;
+    }
+
+		[style*="Arial"] {
+      font-family: 'Arial', Helvetica, sans-serif !important;
+    }
+
+		img {
+			outline: none;
+			text-decoration: none;
+			border:none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100%!important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+
+		table td {
+			border-collapse: collapse;
+		}
+
+		table {
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+
+    .pb-21 {
+      padding-bottom: 21px;
+    }
+
+    .pb-13 {
+      padding-bottom: 13px;
+    }
+
+    .pb-11 {
+      padding-bottom: 11px;
+    }
+
+    .main {
+      width: 600px;
+    }
+
+    .container {
+      width: 520px;
+    }
+
+    .header {
+      width: 188px;
+      padding-top: 30px;
+      padding-bottom: 28px;
+    }
+
+    .about{
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+
+    .about__title {
+      margin: 0;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: #515151;
+    }
+
+    .about__descr {
+      margin: 0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 24px;
+      color: #515151;
+    }
+
+    .paiters {
+      padding-top: 26px;
+      padding-bottom: 26px;
+    }
+
+    .paiters__title {
+      margin: 0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+    }
+
+    .painters-cart__img {
+      padding-bottom: 21px;
+    }
+
+    .painters-cart__title {
+      margin: 0;
+      padding-bottom: 8px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 24px;
+      color: #FFFFFF;
+    }
+
+    .painters-cart__descr {
+      margin: 0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #FFFFFF;
+    }
+
+    .addition {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+
+    .addition__cart {
+      width: 138px;
+      padding-right: 35px;
+    }
+
+    .addition-cart__descr {
+      margin: 0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #515151;
+    }
+
+    .addition__btn {
+      display: block;
+      width: 240px;
+      background-color: #9D5CD0;
+      border-top-left-radius: 48px;
+      border-top-right-radius: 48px;
+      border-bottom-left-radius: 48px;
+      border-bottom-right-radius: 48px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 14px;
+      color: #FFFFFF;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      text-decoration: none;
+    }
+
+    .footer {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+
+    .footer__social {
+      margin-top: 12.5px;
+      margin-bottom: 12.5px;
+    }
+
+    .footer__descr {
+      margin: 0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 12px;
+      color: #757575;
+    }
+
+    .end {
+      padding-top: 5px;
+      padding-bottom: 7px;
+    }
+
+    .end__text {
+      display: inline;
+      margin: 0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 10px;
+      color: #757575;
+    }
+
+    .end__link {
+      margin: 0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 10px;
+      color: #9D5CD0;
+    }
+
+
+    @media (max-width: 620px) {
+      .main {
+        width: 280px !important;
+      }
+
+      .container {
+        width: 244px !important;
+      }
+
+      .header {
+        padding-top: 17px;
+        padding-bottom: 17px;
+      }
+
+      .header-img {
+        width: 114px !important;
+        height: 25.52px !important;
+      }
+
+      .hero-img {
+        width: 280px !important;
+      }
+
+      .painters-cart__img {
+        padding-bottom: 10px;
+        width: 244px !important;
+        height: 84px !important;
+      }
+
+      .painters-cart__title {
+        padding-bottom: 10px;
+      }
+
+      .addition__cart {
+        display: block;
+        width: 244px !important;
+        padding-right: 0;
+      }
+
+    }
+	</style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+	<div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое письмо</div>
+
+	<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ededed">
+    <!-- header -->
+    <tr>
+      <td align="center">
+        <table class="main" cellpadding="0" cellspacing="0" width="600" bgcolor="#000000">
+          <tr>
+            <td align="center" class="header">
+              <img src="http://cy40947.tmweb.ru/img/logo.png" class="header-img" width="187.6" height="42" alt="Логотип"/>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- hero -->
+    <tr>
+      <td align="center">
+        <table class="main" cellpadding="0" cellspacing="0" width="600">
+          <tr>
+            <td align="center">
+              <img src="http://cy40947.tmweb.ru/img/hero.jpg" class="hero-img" width="600" height="300" alt="Картина"/>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- about -->
+    <tr>
+      <td align="center">
+        <table class="main" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff">
+          <tr>
+            <td align="center" class="about">
+              <table class="container" cellpadding="0" cellspacing="0" width="520">
+                <tr>
+                  <td class="pb-13">
+                    <h1 class="about__title" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Торжество импрессионизма
+                    </h1>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="about__descr" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Опыт говорит нам, что семантический разбор внешних противодействий требует анализа новых принципов формирования материально-технической и кадровой базы.
+                      <br/>
+                      <br/>
+                      Задача организации, в особенности же внедрение современных методик, в своём классическом представлении, допускает внедрение глубокомысленных рассуждений. Есть над чем задуматься: элементы политического процесса преданы социально&nbsp;-&nbsp;демократической анафеме! Но интерактивные прототипы заблокированы в рамках своих собственных рациональных ограничений. Сторонники тоталитаризма в науке ограничены исключительно образом мышления.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- painters -->
+    <tr>
+      <td align="center">
+        <table class="main" cellpadding="0" cellspacing="0" width="600" bgcolor="#000000">
+          <tr>
+            <td align="center" class="paiters">
+              <table class="container" cellpadding="0" cellspacing="0" width="520">
+                <tr>
+                  <td class="pb-21">
+                    <h2 class="paiters__title" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Представленные художники
+                    </h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-21">
+                    <img class="painters-cart__img" src="http://cy40947.tmweb.ru/img/p-1.png" width="520" height="180" alt="Поль Гоген"/>
+                    <h3 class="painters-cart__title" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Поль Гоген
+                    </h3>
+                    <p class="painters-cart__descr" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Прежде всего, разбавленное изрядной долей эмпатии, рациональное мышление в значительной степени обусловливает важность укрепления моральных ценностей.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-21">
+                    <img class="painters-cart__img" src="http://cy40947.tmweb.ru/img/p-2.png" width="520" height="180" alt="Огюст Ренуар"/>
+                    <h3 class="painters-cart__title" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Огюст Ренуар
+                    </h3>
+                    <p class="painters-cart__descr" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      А также сделанные на базе интернет-аналитики выводы освещают чрезвычайно интересные особенности картины в целом.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-21">
+                    <img class="painters-cart__img" src="http://cy40947.tmweb.ru/img/p-3.png" width="520" height="180" alt="Клод Моне"/>
+                    <h3 class="painters-cart__title" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Клод Моне
+                    </h3>
+                    <p class="painters-cart__descr" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Современная методология разработки однозначно фиксирует необходимость системы массового участия.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-21">
+                    <img class="painters-cart__img" src="http://cy40947.tmweb.ru/img/p-4.png" width="520" height="180" alt="Эдуард Мане"/>
+                    <h3 class="painters-cart__title" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Эдуард Мане
+                    </h3>
+                    <p class="painters-cart__descr" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Но социально-экономическое развитие является качественно новой ступенью вывода текущих активов.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img class="painters-cart__img" src="http://cy40947.tmweb.ru/img/p-5.png" width="520" height="180" alt="Винсент Ван Гог"/>
+                    <h3 class="painters-cart__title" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Винсент Ван Гог
+                    </h3>
+                    <p class="painters-cart__descr" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Повседневная практика показывает, что разбавленное изрядной долей эмпатии, рациональное мышление требует анализа поставленных обществом задач.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- addition -->
+    <tr>
+      <td align="center">
+        <table class="main" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff">
+          <tr>
+            <td align="center" class="addition">
+              <table class="container" cellpadding="0" cellspacing="0" width="520">
+                <tr>
+                  <td class="pb_13">
+                    <h2 class="addition__title" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      И это ещё не всё!
+                    </h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-bottom: 38px;">
+                    <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td class="addition__cart pb-21">
+                          <img class="addition-cart__img pb-11" src="http://cy40947.tmweb.ru/img/add-1.png" alt="check-square"/>
+                          <p class="addition-cart__descr" style="font-family: 'Arial', Helvetica, sans-serif;">
+                            Уникальные подборки работ с авторскими рецензиями
+                          </p>
+                        </td>
+                        <td class="addition__cart pb-21">
+                          <img class="addition-cart__img pb-11" src="http://cy40947.tmweb.ru/img/add-2.png" alt="calendar"/>
+                          <p class="addition-cart__descr" style="font-family: 'Arial', Helvetica, sans-serif;">
+                            Возможность настроить нашу рассылку под свой личный вкус
+                          </p>
+                        </td>
+                        <td class="addition__cart">
+                          <img class="addition-cart__img pb-11" src="http://cy40947.tmweb.ru/img/add-3.png" alt="arrow-up-circle"/>
+                          <p class="addition-cart__descr" style="font-family: 'Arial', Helvetica, sans-serif;">
+                            У вас есть пожелания и предложения?
+                            <br/>
+                            Напишите нам в ответ на это письмо!
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <a href="#" class="addition__btn" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Узнать все подробности
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- footer -->
+    <tr>
+      <td align="center">
+        <table class="main" cellpadding="0" cellspacing="0" width="600" bgcolor="#000000">
+          <tr>
+            <td align="center" class="footer">
+              <table class="container" cellpadding="0" cellspacing="0" width="520">
+                <tr>
+                  <td align="center">
+                    <table class="footer__social" cellpadding="0" cellspacing="0" width="143">
+                      <tr>
+                        <td align="left">
+                          <img class="footer__link" src="http://cy40947.tmweb.ru/img/vk.png" alt="Вконтакте"/>
+                        </td>
+                        <td align="center">
+                          <img class="footer__link" src="http://cy40947.tmweb.ru/img/instagram.png" alt="Инстаграм"/>
+                        </td>
+                        <td align="right">
+                          <img class="footer__link" src="http://cy40947.tmweb.ru/img/fb.png" alt="Фейсбук"/>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <p class="footer__descr" style="font-family: 'Arial', Helvetica, sans-serif;">
+                      Blanchard © 2020 / Все права защищены
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- end -->
+    <tr>
+      <td align="center">
+        <table class="main" cellpadding="0" cellspacing="0" width="600" bgcolor="#EBEBEB">
+          <tr>
+            <td align="center" class="end">
+              <p class="end__text" style="font-family: 'Arial', Helvetica, sans-serif;">
+                Вы можете так же
+              </p>
+              <a href="#" class="end__link" style="font-family: 'Arial', Helvetica, sans-serif;">
+                отписаться от рассылки
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+</table>
+</body>
+
+</html>
